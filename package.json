@@ -1,6 +1,7 @@
 {
   "name": "autocomplete-java",
   "main": "./lib/atomAutocompletePackage",
+  
   "version": "1.2.5",
   "description": "Autocomplete-plus provider for Java",
   "repository": "https://github.com/keskiju/autocomplete-java",
@@ -33,8 +34,12 @@
   },
   "dependencies": {
     "triejs": "0.1.5",
-    "lodash": "3.10.1",
-    "walk": "2.3.9"
+    "walk": "2.3.9",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0-alpha.5",
+    "grpc": "^0.14.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "babel-core": "^5.8.24",
